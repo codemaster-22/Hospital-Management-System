@@ -1,4 +1,4 @@
-# Hospital-Record
+# Hospital-Management-System
 Problem Statement:
 - A hospital wants to develop an application to maintain the doctor and patient records. The
 specifications are as follows: A doctor has a unique ID and a list of patients he/she attends to. A
