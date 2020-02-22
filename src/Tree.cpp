@@ -1,4 +1,4 @@
-#include <../include/Tree.h>
+#include "../include/Tree.h"
 Node* Tree::insert(int n,int p=0){
     if(!root){
         root=new Node(n,p,root);
