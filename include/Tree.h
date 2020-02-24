@@ -15,7 +15,7 @@ class Node{
     Node* right;
     Node* parent;
     Tree* paitent;
-    Node(int l,int k,Node* par):data(l),doctor(k),left(NULL),right(NULL),parent(par),paitent(NULL){}
+    Node(int l,int k,Node* par);
 };
 class Tree{
     public:
@@ -31,6 +31,6 @@ class Tree{
     void printpreorder(Node* ptr);
     void printinorder();
     void printinorder(Node* ptr);
-    Tree():root(NULL),size(0),limit(0){}
+    Tree();
 };
 #endif
