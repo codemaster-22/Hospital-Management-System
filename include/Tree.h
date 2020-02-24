@@ -1,3 +1,5 @@
+#ifndef TREE_H 
+#define TREE_H
 #include <cmath>
 #include <cstdio>
 #include <vector>
@@ -31,3 +33,4 @@ class Tree{
     void printinorder(Node* ptr);
     Tree():root(NULL),size(0),limit(0){}
 };
+#endif
