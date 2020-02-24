@@ -1,4 +1,15 @@
 #include "../include/Tree.h"
+
+Node::Node(int l,int k,Node* par){
+    data= l;
+    doctor=k;
+    left=NULL;
+    right=NULL;
+    parent=par;
+    paitent=NULL;
+}
+
+
 Node* Tree::insert(int n,int p=0){
     if(!root){
         root=new Node(n,p,root);
