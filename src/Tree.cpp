@@ -8,6 +8,11 @@ Node::Node(int l,int k,Node* par){
     parent=par;
     paitent=NULL;
 }
+Tree::Tree(){
+    root=NULL;
+    size=0;
+    limit=0;
+}
 
 
 Node* Tree::insert(int n,int p=0){
