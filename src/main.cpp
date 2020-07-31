@@ -1,4 +1,4 @@
-#include "..\include\Tree.h"
+#include "../include/Tree.h"
 int main() {
     int n,p;
     cin>>n>>p;
